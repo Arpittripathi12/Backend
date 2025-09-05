@@ -3,7 +3,7 @@
     // import { DB_NAME } from "./constants";
 import { app } from "./app.js";
 import connectDB from "./db/index.js";
-import dotenv from 'dotenv'
+    import dotenv from 'dotenv'
     // dotenv ko isliye use karte hai taki jab hamari first file load ho tabhi humare sare ke sare 
     // environment variables bhi load ho jaye
     dotenv.config({
